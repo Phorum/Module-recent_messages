@@ -1,9 +1,10 @@
-Module  : Recent Messages
-Version : 2.1.1
+Module  : @TITLE@
+Version : @VERSION@
 Author  : Maurice Makaay
 
-This module implements an addon page, which displays the most recent
-messages / topics to the user. The user can:
+@DESCRIPTION@
+
+The user can:
 
  * choose between showing new messages, new topics or updated topcis;
  * choose how many messages / topics should be shown per page;
@@ -31,13 +32,13 @@ Contents:
 
 - Unpack the archive;
 
-- Move the directory "recent_messages" to the directory "mods"
+- Move the directory "@MODULE_ID@" to the directory "mods"
   within your Phorum installation;
 
 - Login as administrator in Phorum's administrative interface and
   go to the "Modules" section;
 
-- Enable the module "Recent Messages".
+- Enable the module "@TITLE@".
 
 - Templates must be configured to show the link to the recent messages page.
   Alter your template to suit your needs.
