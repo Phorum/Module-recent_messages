@@ -16,9 +16,8 @@ The module also supports loading the recent messages through a Phorum
 Ajax call, so a recent messages list can be easily embedded in a target
 page.
 
-For running this mod, you need Phorum 5.2.8 or later. It will not
-work for earlier versions of Phorum.
-
+For running this mod, you need Phorum @REQUIRED_VERSION@ or later.
+It will not work for earlier versions of Phorum.
 
 Contents:
 1. Installation
